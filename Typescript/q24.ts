@@ -1,0 +1,36 @@
+console.log(`******* Problem 24 *******`);
+
+let string1: string = 'apple';
+let string2: string = 'banana';
+let num1: number = 10;
+let num2: number = 20;
+let fruits: string[] = ['apple', 'banana', 'cherry'];
+let colors: string[] = ['red', 'green', 'blue'];
+console.log("Equality Test with Strings: I predict False.");
+console.log(string1 === string2);
+console.log("Inequality Test with Strings: I predict True.");
+console.log(string1 !== string2);
+console.log("Lowercase Test: I predict True.");
+console.log(string1.toLowerCase() === 'apple');
+console.log("Equality Test with Numbers: I predict False.");
+console.log(num1 === num2);
+console.log("Inequality Test with Numbers: I predict True.");
+console.log(num1 !== num2)
+console.log("Greater Than Test: I predict False.");
+console.log(num1 > num2);
+console.log("Less Than Test: I predict True.");
+console.log(num1 < num2);
+console.log("Greater Than or Equal To Test: I predict False.");
+console.log(num1 >= num2);
+console.log("Less Than or Equal To Test: I predict True.");
+console.log(num1 <= num2);
+console.log("And Operator Test: I predict True.");
+console.log(num1 > 5 && num2 > 15);
+console.log("Or Operator Test: I predict True.");
+console.log(num1 > 5 || num2 > 15);
+console.log("Array Inclusion Test: I predict True.");
+console.log(fruits.includes('apple'));
+console.log("Array Exclusion Test: I predict True.");
+console.log(!fruits.includes('cherry'));
+console.log("Combination Test: I predict False.");
+console.log(string1 === 'banana' && num1 === 20 && fruits.includes('cherry'));
