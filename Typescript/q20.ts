@@ -1,8 +1,9 @@
 // Problem 20: 
 console.log(`******* Problem 20 *******`);
 const countries: string[] = [
+    "Madina",
     "Arabic",
-    "Paksita",
+    "Paksitan",
     "Saudia",
     "Turkey",
     "France",
