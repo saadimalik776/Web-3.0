@@ -1,18 +1,25 @@
 // Problem 29: Favorite Fruits
-console.log("******* Problem 29 *******");
-var favorite_fruits = ["apple", "banana", "strawberry", "kiwi", "mango"];
-if (favorite_fruits.includes("apple")) {
-    console.log("You really like apples!");
-}
-if (favorite_fruits.includes("banana")) {
-    console.log("You really like bananas!");
-}
-if (favorite_fruits.includes("strawberry")) {
-    console.log("You really like strawberries!");
-}
-if (favorite_fruits.includes("kiwi")) {
-    console.log("You really like kiwis!");
-}
-if (favorite_fruits.includes("mango")) {
-    console.log("You really like mangoes!");
+console.log(`******* Problem 29 *******`);
+const favorite_fruits: string[] = ["bananas", "strawberries", "mangoes"];
+for (const fruit of favorite_fruits) {
+    switch (fruit) {
+        case "bananas":
+            console.log("You really like bananas!");
+            break;
+        case "strawberries":
+            console.log("You really like strawberries!");
+            break;
+        case "mangoes":
+            console.log("You really like mangoes!");
+            break;
+        case "apples":
+            console.log("You really like apples!");
+            break;
+        case "kiwis":
+            console.log("You really like kiwis!");
+            break;
+        default:
+            console.log(`You don't seem to like ${fruit}.`);
+            break;
+    }
 }
