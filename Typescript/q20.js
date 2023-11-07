@@ -1,7 +1,18 @@
 // Problem 20: 
-console.log("******* Problem 20 *******");
-var rivers = ['Jehlum', 'Chenab', 'Setluj', 'Ravies', 'Sawat river'];
-console.log("List of Famous Rivers:");
-rivers.forEach(function (river, index) {
-    console.log("".concat(index + 1, ". ").concat(river));
-});
+console.log(`******* Problem 20 *******`);
+const countries: string[] = [
+    "Madina",
+    "Arabic",
+    "Paksitan",
+    "Saudia",
+    "Turkey",
+    "France",
+    "Germany",
+    "Japan",
+    "China",
+    "Brazil",
+    "India"
+];
+for (const country of countries) {
+    console.log(country);
+}
