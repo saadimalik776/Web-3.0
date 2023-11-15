@@ -1,6 +1,6 @@
 // Problem 28: Stages of Life
 console.log(`******* Problem 28 *******`);
-let age = 25;
+let age = 22;
 if (age < 2){
     console.log("The person is a baby.");
 } else if (age >= 2 && age < 4) {
